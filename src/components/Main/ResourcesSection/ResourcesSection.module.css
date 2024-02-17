@@ -1,0 +1,50 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+  padding: 40px 15px 134px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  padding-bottom: 40px;
+
+  color: #00296b;
+
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.list_content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding-bottom: 15px;
+}
+
+.list_content p {
+  padding: 30px 20px 30px 30px;
+
+  font-family: MuseoModerno;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.list_content li {
+  border-radius: 30px;
+}
+
+.list_content li:nth-child(1) {
+  color: #fffffa;
+  background-color: #00509d;
+}
+
+.list_content li:nth-child(2) {
+  color: #000000;
+  background-color: #d9d9d9;
+}

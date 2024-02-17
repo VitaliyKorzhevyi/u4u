@@ -1,0 +1,27 @@
+.menu_toggle {
+  width: 35px;
+  height: 31px;
+  cursor: pointer;
+  padding-top: 7px;
+}
+
+.hamburger {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hamburger span {
+  display: block;
+  border-radius: 2px;
+  max-width: 35px;
+  min-height: 1px;
+  background-color: #00296B;
+}
+
+.hamburger span:nth-child(2) {
+  margin-left: auto;
+  width: 25px;
+}

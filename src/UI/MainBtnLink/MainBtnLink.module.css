@@ -1,0 +1,28 @@
+button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    right: 15px;
+    height: 54px;
+    width: 280px;
+    padding-left: 103px;
+  
+    border-radius: 22px;
+    cursor: pointer;
+  
+    border: none;
+  
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0%;
+  }
+  
+  button img  {
+      margin-left: 20px;
+  }
+  
+  img {
+      margin: 0 auto;
+  }
