@@ -1,9 +1,76 @@
 .container {
-    position: relative;
-    margin: 0 auto;
-    padding: 15px;
-  }
+  position: relative;
+  margin: 0 auto;
+  padding: 0 15px 40px;
+}
 
-  .photo {
-    border-radius: 30px;
-  }
+.photo {
+  margin-bottom: 20px;
+  border-radius: 30px;
+}
+
+.photo img {
+  margin: 0 auto;
+}
+
+.list {
+  padding: 60px 10px 99px;
+
+  border-radius: 30px;
+  background-color: rgba(0, 80, 157, 0.3);
+}
+
+.list h2 {
+  padding-bottom: 40px;
+  text-align: center;
+
+  color: #00296b;
+
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.item_text1 {
+  margin-bottom: 20px;
+  border-radius: 30px;
+
+  color: black;
+  background-color: #FFFFFA;
+
+  font-family: MuseoModerno;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.item_text1 p {
+  text-align: left;
+}
+
+.list li:nth-child(2) {
+  padding: 20px 10px 20px 20px;
+}
+
+.list li:nth-child(4) {
+  padding: 20px 16px 20px 20px;
+}
+
+.MainBtnLink {
+  margin-right: 10px;
+}
+
+.logo {
+  max-height: 97px;
+  padding: 10px 16px 10px 20px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+
+  background-color: #FFFFFA;
+}
+
+.logo img {
+  max-height: 76px;
+  margin: 0 auto;
+}

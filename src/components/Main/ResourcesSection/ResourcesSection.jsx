@@ -1,13 +1,13 @@
 import s from "./ResourcesSection.module.css";
 
-import photo from "../../../assets/images/main_comp_resources.jpg";
+import resourcesPhoto from "../../../assets/images/main_comp_resources.jpg";
 import { NavLink } from "react-router-dom";
 import MainBtnLink from "../../../UI/MainBtnLink/MainBtnLink";
 
 const ResourcesSection = () => {
   return (
     <div className={s.container}>
-      <h2>Resources for Adapting</h2>
+      <h2 className={s.title}>Resources for Adapting</h2>
       <ul className={s.list_content}>
         <li>
           <p>
@@ -24,11 +24,14 @@ const ResourcesSection = () => {
           </p>
         </li>
         <li>
-          <img src={photo} alt="photo" />
+          <img
+            src={resourcesPhoto}
+            alt="resources_photo"
+          />
         </li>
       </ul>
       <NavLink to="/resources">
-        <MainBtnLink textColor="#00296b" bgColor="#fdda5c"/>
+        <MainBtnLink textColor="#00296b" bgColor="#fdda5c" />
       </NavLink>
     </div>
   );

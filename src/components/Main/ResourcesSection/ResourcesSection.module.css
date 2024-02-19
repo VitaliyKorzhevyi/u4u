@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-h2 {
+.title {
   padding-bottom: 40px;
 
   color: #00296b;
@@ -24,6 +24,10 @@ h2 {
   gap: 20px;
 
   padding-bottom: 15px;
+}
+
+.list_content img {
+  margin: 0 auto;
 }
 
 .list_content p {

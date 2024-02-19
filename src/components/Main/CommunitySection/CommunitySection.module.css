@@ -1,0 +1,98 @@
+.container {
+  padding: 40px 0 94px 15px;
+}
+
+.title {
+  text-align: center;
+
+  padding-bottom: 30px;
+
+  color: #00296b;
+
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+}
+
+@media (max-width: 560px) {
+  .title {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title span:nth-child(2) {
+    padding-left: 30px;
+  }
+}
+
+.list {
+  width: 100%;
+  height: 100%;
+
+  padding-bottom: 20px;
+  padding-right: 15px;
+
+  display: flex;
+  gap: 10px;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.list::-webkit-scrollbar {
+  height: 0;
+}
+
+.list li {
+  height: 155px;
+
+  border: 2px solid #b3cbde;
+  border-radius: 30px;
+}
+
+.list li:nth-child(1) {
+  min-width: 298px;
+
+  padding: 25px 14px 0 25px;
+}
+
+.list li:nth-child(2) {
+  min-width: 317px;
+
+  padding: 25px 17px 0 25px;
+}
+
+.list li:nth-child(3) {
+  min-width: 340px;
+
+  padding: 25px 15px 0 25px;
+}
+
+.list p {
+  font-family: MuseoModerno;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 128.9%;
+}
+
+@media (max-width: 617px) {
+  .lines {
+    height: 4px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+
+  .lines span {
+    height: 3px;
+    width: 50px;
+
+    background-color: #b3cbde;
+
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+}
