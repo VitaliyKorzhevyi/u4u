@@ -2,8 +2,6 @@ import s from "./CulturalSection.module.css";
 
 import culturalPhoto1 from "../../../assets/images/main_comp_cultural1.png";
 import culturalPhoto2 from "../../../assets/images/main_comp_cultural2.png";
-import { NavLink } from "react-router-dom";
-import MainBtnLink from "../../../UI/MainBtnLink/MainBtnLink";
 
 const CulturalSection = () => {
   return (
@@ -31,10 +29,6 @@ const CulturalSection = () => {
           <img className={s.logo} src={culturalPhoto2} alt="" />
         </li>
       </ul>
-
-      <NavLink to="/cultural">
-        <MainBtnLink textColor="#00296b" bgColor="#fdda5c" />
-      </NavLink>
     </div>
   );
 };

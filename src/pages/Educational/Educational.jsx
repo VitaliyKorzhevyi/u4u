@@ -1,8 +1,8 @@
-import React from 'react'
+import s from './Educational.module.css'
 
 const Educational = () => {
   return (
-    <div>Educational</div>
+    <div className={s.container}><p>Educational page</p></div>
   )
 }
 

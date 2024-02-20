@@ -13,12 +13,12 @@ button {
   border: none;
 
   font-family: Raleway;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 24px;
 }
 
 button svg {
   width: 9px;
   height: 16px;
-  margin: 2px 0 0 20px;
+  margin: 2px 0 0 19px;
 }

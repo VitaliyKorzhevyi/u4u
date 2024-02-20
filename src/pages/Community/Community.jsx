@@ -1,8 +1,8 @@
-import React from 'react'
+import s from './Community.module.css'
 
 const Community = () => {
   return (
-    <div>Community</div>
+    <div className={s.container}><p>Community page</p></div>
   )
 }
 

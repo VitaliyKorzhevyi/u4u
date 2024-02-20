@@ -1,6 +1,4 @@
-import { NavLink } from "react-router-dom";
 import s from "./TestimonialsSection.module.css";
-import MainBtnLink from "../../../UI/MainBtnLink/MainBtnLink";
 
 import testimonialsPhoto from "../../../assets/images/main_comp_testimonials.png"
 
@@ -20,11 +18,6 @@ const TestimonialsSection = () => {
         </li>
         <li className={s.photo}>
           <img src={testimonialsPhoto} alt="photo3" />
-        </li>
-        <li>
-          <NavLink to="/testimonials">
-            <MainBtnLink textColor="#FFFFFA" bgColor="#00509D" mrRight="10px"/>
-          </NavLink>
         </li>
       </ul>
     </div>

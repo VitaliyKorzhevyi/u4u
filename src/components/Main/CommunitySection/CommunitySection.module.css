@@ -20,6 +20,8 @@
     text-align: left;
     display: flex;
     flex-direction: column;
+
+    gap: 2px;
   }
 
   .title span:nth-child(2) {
@@ -65,7 +67,7 @@
 }
 
 .list li:nth-child(3) {
-  min-width: 340px;
+  min-width: 358px;
 
   padding: 25px 15px 0 25px;
 }
@@ -92,7 +94,7 @@
 
     background-color: #b3cbde;
 
-    border-radius: 20px;
+    border-radius: 30px;
     transition: background-color 0.3s ease;
   }
 }

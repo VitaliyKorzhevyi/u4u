@@ -1,5 +1,5 @@
 .container {
-  padding: 40px 0 94px 15px;
+  padding: 40px 0 80px 15px;
 }
 
 .title {
@@ -73,11 +73,11 @@
 
 @media (max-width: 617px) {
   .lines {
-    height: 4px;
+    height: 3px;
     width: 170px;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 23px;
   }
 
   .lines span {

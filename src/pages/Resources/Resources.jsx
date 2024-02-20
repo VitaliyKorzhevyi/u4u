@@ -1,9 +1,11 @@
-import React from 'react'
+import s from "./Resources.module.css";
 
 const Resources = () => {
   return (
-    <div>Resources</div>
-  )
-}
+    <div className={s.container}>
+      <p>Resources page</p>
+    </div>
+  );
+};
 
-export default Resources
+export default Resources;

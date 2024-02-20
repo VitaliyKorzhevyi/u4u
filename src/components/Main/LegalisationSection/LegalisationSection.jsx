@@ -1,7 +1,5 @@
 import { useEffect } from "react";
 import s from "./LegalisationSection.module.css";
-import MainBtnLink from "../../../UI/MainBtnLink/MainBtnLink";
-import { NavLink } from "react-router-dom";
 
 const LegalisationSection = () => {
   useEffect(() => {
@@ -61,9 +59,6 @@ const LegalisationSection = () => {
           <span key={index}></span>
         ))}
       </div>
-      <NavLink to="/legalisation">
-        <MainBtnLink textColor="#FFFFFA" bgColor="#00509D" />
-      </NavLink>
     </div>
   );
 };

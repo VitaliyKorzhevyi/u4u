@@ -8,7 +8,7 @@
 
 .logo {
   height: 58px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .container h2 {
@@ -27,11 +27,11 @@
 }
 
 .container p {
-    margin: 40px 0;
+  margin: 40px 0;
   color: #00296b;
 
   font-family: MuseoModerno;
   font-weight: 400;
   font-size: 24px;
-  line-height: 135%;
+  line-height: 134%;
 }

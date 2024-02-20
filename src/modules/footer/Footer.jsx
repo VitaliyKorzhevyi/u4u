@@ -5,6 +5,7 @@ import MySVGIcon from "../../assets/icons/iconMail.svg";
 import iconTG from "../../assets/icons/iconTG.svg";
 import footerLabel from "../../assets/images/footer_label.png";
 import footerLogo from "../../assets/images/footer_logo.png";
+import { menuItems } from "../../utils/nav_menu_items";
 
 const Footer = () => {
   return (
@@ -13,43 +14,25 @@ const Footer = () => {
         <NavLink to="/">
           <img src={footerLabel} alt="label" />
         </NavLink>
-        <span>
-          <img src={iconTG} alt="telegram" />
-          <img src={MySVGIcon} alt="" />
+        <span className={s.icons}>
+        <a href="mailto:admin@support4ukraine.org">
+            <img className={s.i_email} src={MySVGIcon} alt="" />
+          </a>
+          <img className={s.i_tg} src={iconTG} alt="telegram" />
+
         </span>
       </div>
+
       <ul className={s.list}>
-        <li>
-          <NavLink to="/resources">
-            <p>Resources for Adapting</p>
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/educational">
-            <p>Educational Resources</p>
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/community">
-            <p>Community and Support</p>
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/testimonials">
-            <p>Testimonials</p>
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/legalisation">
-            <p>Legalisation Process tips</p>
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="/cultural">
-            <p>Cultural Exploration</p>
-          </NavLink>
-        </li>
+        {menuItems.map((item, index) => (
+          <li key={index}>
+            <NavLink to={item.path}>
+              <p>{item.text}</p>
+            </NavLink>
+          </li>
+        ))}
       </ul>
+
       <div className={s.sub_container2}>
         <p>©All rights reserved</p>
         <NavLink to="/">

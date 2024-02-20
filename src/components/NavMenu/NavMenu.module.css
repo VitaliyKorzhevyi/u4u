@@ -1,4 +1,6 @@
 .menu_toggle {
+  position: absolute;
+  z-index: 4;
   width: 35px;
   height: 31px;
   cursor: pointer;
@@ -18,10 +20,74 @@
   border-radius: 2px;
   max-width: 35px;
   min-height: 1px;
-  background-color: #00296B;
+  background-color: #00296b;
 }
 
 .hamburger span:nth-child(2) {
   margin-left: auto;
   width: 25px;
+}
+
+/* * --------------------- NAV MENU --------------------- */
+
+.nav_menu_container {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+
+  min-width: 100%;
+  min-height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #fffffa;
+
+  transform: translateX(-100%); /* Сдвиг меню из-за левого края экрана */
+  transition: transform 0.3s ease;
+}
+
+.nav_menu_container.open {
+  transform: translateX(0); /* Показываем меню, сдвигая его обратно в видимую область */
+}
+
+.nav_logo1 {
+  margin-top: 25px;
+  max-height: 75px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+
+  padding: 85px 0 74px;
+
+  color: #00296b;
+
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav_menu_sub_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav_menu_sub_container img {
+  height: 66px;
+}
+
+.phone {
+  color: #001b46;
+
+  font-family: MuseoModerno;
+  font-weight: 300;
+  font-size: 16px;
 }
