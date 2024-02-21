@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunku4u=self.webpackChunku4u||[]).push([[6],{6:(a,c,e)=>{e.r(c),e.d(c,{default:()=>n});const s="Educational_container__yK6WW";var u=e(579);const n=()=>(0,u.jsx)("div",{className:s,children:(0,u.jsx)("p",{children:"Educational page"})})}}]);
+//# sourceMappingURL=6.b5db9c18.chunk.js.map
