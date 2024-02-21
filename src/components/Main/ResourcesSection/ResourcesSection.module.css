@@ -1,12 +1,3 @@
-.container {
-  position: relative;
-  margin: 0 auto;
-  padding: 40px 15px 134px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .title {
   padding-bottom: 40px;
 
@@ -14,25 +5,17 @@
 
   font-family: Raleway;
   font-weight: 400;
-  font-size: 48px;
-  line-height: 58px;
 }
 
 .list_content {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-
-  padding-bottom: 15px;
 }
 
 .list_content img {
   margin: 0 auto;
 }
 
-.list_content p {
-  padding: 30px 20px 30px 30px;
-
+.text {
   font-family: MuseoModerno;
   font-weight: 400;
   font-size: 18px;
@@ -51,4 +34,86 @@
 .list_content li:nth-child(2) {
   color: #000000;
   background-color: #d9d9d9;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    padding: 56px 0 130px;
+  }
+
+  .title {
+    padding-bottom: 50px;
+    font-size: 64px;
+    margin-left: -1px;
+  }
+
+  .list_content {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .list_content li:nth-child(1),
+  .list_content li:nth-child(2) {
+    max-width: clamp(460px, 47vw, 570px);
+    height: 261px;
+  }
+
+  .list_content li:nth-child(1) {
+    padding: 45px 53px 0 44px;
+  }
+
+  .list_content li:nth-child(2) {
+    padding: 45px 57px 0 45px;
+  }
+
+  .item_desk_img1 {
+    max-width: 400px;
+  }
+
+  .item_desk_img2 {
+    max-width: 381px;
+  }
+
+  .text {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .btn_mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 999.98px) {
+  .container {
+    position: relative;
+    padding: 40px 15px 134px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title {
+    padding-bottom: 40px;
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .text {
+    padding: 30px 20px 30px 30px;
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .list_content {
+    flex-direction: column;
+    gap: 20px;
+
+    padding-bottom: 15px;
+  }
+
+  .item_desk_img,
+  .btn_desk {
+    display: none;
+  }
 }

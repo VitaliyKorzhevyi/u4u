@@ -7,6 +7,8 @@ import { toggleMobileMenu } from "../../utils/open_mobile_menu";
 
 import mainLogo from "../../assets/images/main_logo.png";
 import navLogo from "../../assets/images/nav_menu_logo.png";
+import iconMenu from "../../assets/icons/iconMenu.svg";
+import iconCross from "../../assets/icons/iconCross.svg";
 
 const NavMenu = () => {
   const [isContainerOpen, setIsContainerOpen] = useState(true);
@@ -18,26 +20,19 @@ const NavMenu = () => {
 
   return (
     <>
-      <div id="menu-toggle" className={s.menu_toggle} onClick={toggleContainer}>
-        <div id="hamburger" className={s.hamburger}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <div id="cross">
-          <span></span>
-          <span></span>
-        </div>
-      </div>
-
+      <img className={s.menu_toggle} src={iconMenu} alt="≡" onClick={toggleContainer}/>
       <div className={s.nav_menu_container}>
+        <img
+          className={s.icon_cross}
+          src={iconCross}
+          alt="X"
+          onClick={toggleContainer}
+        />
         <NavLink to="/" onClick={toggleContainer}>
           <img className={s.nav_logo1} src={mainLogo} alt="logo" />
         </NavLink>
-
         <ul className={s.list}>
           {menuItems.map((item, index) => (
-            
             <li key={index}>
               <NavLink to={item.path} onClick={toggleContainer}>
                 <p>{item.text}</p>

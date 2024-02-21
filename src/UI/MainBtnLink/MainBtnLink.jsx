@@ -1,13 +1,16 @@
-import  "./MainBtnLink.module.css";
+import s from "./MainBtnLink.module.css";
 
-const MainBtnLink = ({ textColor, bgColor, mrRight }) => {
+const MainBtnLink = ({ textColor, bgColor, mrRight, height, width }) => {
   return (
     <button
+      className={s.btn}
       type="button"
       style={{
         color: textColor,
         backgroundColor: bgColor,
         marginRight: mrRight,
+        width: width,
+        height: height,
       }}
     >
       <p>learn more</p>

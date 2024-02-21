@@ -7,9 +7,11 @@ import MissionSection from "../../components/Main/MissionSection/MissionSection"
 import ResourcesSection from "../../components/Main/ResourcesSection/ResourcesSection";
 import TestimonialsSection from "../../components/Main/TestimonialsSection/TestimonialsSection";
 
+import s from "./Main.module.css";
+
 const Main = () => {
   return (
-    <>
+    <div className={s.container}>
       <Banner />
       <ResourcesSection />
       <EducationalSection />
@@ -18,7 +20,7 @@ const Main = () => {
       <TestimonialsSection />
       <LegalisationSection />
       <CulturalSection />
-    </>
+    </div>
   );
 };
 

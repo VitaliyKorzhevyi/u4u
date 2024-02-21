@@ -1,24 +1,40 @@
-button {
-  position: absolute;
+.btn {
   display: flex;
   align-items: center;
-  right: 15px;
-  height: 54px;
-  width: 280px;
-  padding-left: 103px;
-
-  border-radius: 22px;
+  padding-left: 113px;
+  border-radius: 25px;
   cursor: pointer;
 
   border: none;
 
   font-family: Raleway;
-  font-weight: 300;
-  font-size: 24px;
+  font-weight: 400;
+
+  font-size: 28px;
 }
 
-button svg {
+.btn svg {
   width: 9px;
   height: 16px;
   margin: 2px 0 0 19px;
+}
+
+@media (max-width: 999.98px) {
+  .btn {
+    height: 54px;
+    width: 280px;
+    position: absolute;
+    right: 15px;
+
+    padding-left: 103px;
+
+    font-weight: 300;
+    font-size: 24px;
+
+    border-radius: 22px;
+  }
+
+  .btn svg {
+    margin: 2px 0 0 19px;
+  }
 }

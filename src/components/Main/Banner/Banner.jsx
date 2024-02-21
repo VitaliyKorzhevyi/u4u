@@ -1,6 +1,7 @@
 import s from "./Banner.module.css";
 
 import bannerMobile from "../../../assets/images/main_banner_mobile.jpg";
+import bannerDesc from "../../../assets/images/main_banner_desk.png";
 
 const Banner = () => {
   return (
@@ -19,6 +20,7 @@ const Banner = () => {
         professional counsel. For that, it's best to consult a certified expert.
         They wear suits for a reason!
       </p>
+      <img className={s.banner_desc} src={bannerDesc} alt="banner" />
       <img className={s.banner_mob} src={bannerMobile} alt="banner" />
     </div>
   );

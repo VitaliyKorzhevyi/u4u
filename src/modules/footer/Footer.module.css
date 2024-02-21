@@ -12,7 +12,7 @@
 .sub_container1 span {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
 }
 
 .sub_container1 img:nth-child(1) {

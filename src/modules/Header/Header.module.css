@@ -1,13 +1,16 @@
 .container {
-  max-width: 1440px;
+  max-width: 1198px;
   margin: 0 auto;
   padding: 25px 15px;
 }
 
+.text_menu {
+  color: #00296b;
 
-@media (max-width: 720px) {
+  font-family: MuseoModerno;
+  font-weight: 300;
+  font-size: 16px;
 }
-
 
 .header_list {
   display: flex;
@@ -16,11 +19,54 @@
 
 .logo {
   max-width: 156px;
-  margin-left: 25px;
+}
+
+.phone {
+  padding-right: 10px;
+  color: #00296b;
+
+  font-family: MuseoModerno;
+  font-weight: 300;
+  font-size: 16px;
 }
 
 .icon_t {
-  min-width: 24px;
-  min-height: 24px;
-  padding-top: 7px;
+  max-width: 25px;
+  max-height: 25px;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    padding: 20px 15px 35px;
+  }
+  .nav_menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    padding: 0 132px 10px 0;
+  }
+
+  .header_list {
+    align-items: flex-end;
+  }
+
+  .contacts {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    padding-bottom: 6px;
+  }
+}
+
+@media (max-width: 999.98px) {
+  .text_menu,
+  .phone,
+  .email {
+    display: none;
+  }
+  .icon_t {
+    margin-top: 7px;
+  }
 }

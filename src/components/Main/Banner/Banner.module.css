@@ -1,11 +1,3 @@
-.container {
-  margin: 0 auto;
-  padding: 25px 15px 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 h1 {
   text-align: center;
 
@@ -22,16 +14,11 @@ h1 span {
 }
 
 .text {
-  min-width: 253px;
-  text-align: left;
-  padding: 24px 40px 30px 58px;
-
   color: #00296b;
 
   font-family: Raleway;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 139.1%;
+  line-height: 139.12%;
 }
 
 .text_disclaimer {
@@ -47,7 +34,6 @@ h1 span {
   font-size: 16px;
   line-height: 130%;
 
-
   border-radius: 30px;
 }
 
@@ -58,4 +44,84 @@ h1 span {
 .banner_mob {
   padding-top: 20px;
   border-radius: 30px;
+}
+
+.banner_desc {
+  max-width: clamp(100%, 2.4vw, 100%);
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1152.98px) {
+  .text {
+    height: 84px;
+    max-width: 546px;
+  }
+
+  .text_disclaimer {
+    padding: 20px;
+    max-width: clamp(26%, 2.6vw, 26.6%);
+    margin-top: clamp(10.7%, 1vw, 26.6%);
+  }
+}
+
+@media (min-width: 1153px) {
+  .text {
+    max-width: 573px;
+  }
+  .text_disclaimer {
+    padding: 30px;
+    margin-top: 121px;
+    height: 207px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    position: relative;
+    padding: 25px 0 75px;
+  }
+
+  h1 {
+    padding: 33px 0 50px;
+    text-align: left;
+    font-size: clamp(100px, 16.471vw - 4.044rem, 128px);
+  }
+
+  .text {
+    position: absolute;
+
+    padding: 8px 0 0 0;
+    height: 84px;
+    font-size: clamp(20px, 2.4vw, 30px);
+  }
+
+  .text_disclaimer {
+    position: absolute;
+    font-size: clamp(14px, 1.3vw, 16px);
+
+    line-height: 132%;
+  }
+
+  .banner_mob {
+    display: none;
+  }
+}
+
+@media (max-width: 999.98px) {
+  .container {
+    padding: 25px 15px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text {
+    min-width: 253px;
+    text-align: left;
+    padding: 24px 40px 30px 58px;
+  }
+
+  .banner_desc {
+    display: none;
+  }
 }
