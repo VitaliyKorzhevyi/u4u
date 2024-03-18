@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunku4u=self.webpackChunku4u||[]).push([[459],{459:(e,s,u)=>{u.r(s),u.d(s,{default:()=>c});const n="Community_container__ta2iS";var a=u(579);const c=()=>(0,a.jsx)("div",{className:n,children:(0,a.jsx)("p",{children:"Community page"})})}}]);
-//# sourceMappingURL=459.be7ef13c.chunk.js.map
