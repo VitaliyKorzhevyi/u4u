@@ -1,0 +1,123 @@
+.text_link {
+    padding: 50px 0 60px;
+
+    text-align: left;
+
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 36px;
+    text-decoration: underline 2px;
+    text-decoration-skip-ink: none;
+    text-underline-offset: 4px;
+    color: #00296b;
+  }
+
+
+@media (min-width: 1000px) {
+  .container {
+    padding-top: 2px;
+  }
+
+  .text_link {
+    padding: 50px 0 70px;
+    font-size: 36px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .item {
+    text-align: left;
+  }
+
+  .item h3 {
+    margin-bottom: 40px;
+
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 36px;
+    color: #00296b;
+  }
+
+  .item p {
+    font-family: MuseoModerno;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000;
+  }
+
+  .text_bottom {
+    margin-top: 70px;
+  }
+
+  .text_more {
+    margin-top: -4px;
+    padding-bottom: 40px;
+
+    text-align: left;
+
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 120%;
+    color: #00296b;
+  }
+}
+
+@media (max-width: 999.98px) {
+  .container {
+    padding-bottom: 60px;
+  }
+
+  .text_link {
+    font-size: 30px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .item {
+    text-align: left;
+  }
+
+  .item h3 {
+    margin-bottom: 30px;
+
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 36px;
+    color: #00296b;
+  }
+
+  .item p {
+    font-family: MuseoModerno;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000;
+  }
+
+  .text_bottom {
+    margin-top: 50px;
+  }
+
+  .text_more {
+    margin-top: -20px;
+    padding-bottom: 40px;
+
+    text-align: left;
+
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 120%;
+    color: #00296b;
+  }
+}

@@ -119,6 +119,8 @@ h1 span {
     min-width: 253px;
     text-align: left;
     padding: 24px 40px 30px 58px;
+
+    font-size: 18px;
   }
 
   .banner_desc {

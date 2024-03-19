@@ -1,37 +1,120 @@
-.container {
-  margin: 0 auto;
-  padding: 40px 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.logo {
-  height: 58px;
-  margin-bottom: 20px;
-}
-
-.container h2 {
-  text-align: center;
-  padding: 20px 40px;
-
-  color: #fffffa;
-  background-color: #00509d;
-
-  font-family: MuseoModerno;
-  font-weight: 300;
-  font-size: 64px;
-  line-height: 75px;
-
-  border-radius: 30px;
-}
-
 .container p {
-  margin: 40px 0;
   color: #00296b;
 
   font-family: MuseoModerno;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 134%;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    margin: 0 auto;
+    padding: 64px 0 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    max-width: 270px;
+    margin-bottom: 30px;
+  }
+
+  .mission_sub_cont1 {
+    height: 254px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 50px;
+
+    border-radius: 30px;
+    color: #fffffa;
+    background-color: #00509d;
+  }
+
+  .mission_sub_cont1 h2 {
+    text-align: center;
+
+    padding: 0 34px 24px 64px;
+
+    font-family: MuseoModerno;
+    font-weight: 300;
+    font-size: 128px;
+    line-height: 204px;
+
+    border-radius: 30px;
+
+    color: #fffffa;
+    background-color: #00509d;
+  }
+
+  .mission_sub_cont1 img {
+    height: 132px;
+
+    margin: 25px 0 0 -20px;
+  }
+
+  .photo_mob {
+    display: none;
+  }
+
+  .mission_sub_cont2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mission_sub_cont2 p {
+    margin-left: 54px;
+    max-width: 534px;
+
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 135%;
+    color: #00296b;
+  }
+}
+
+@media (max-width: 999.98px) {
+  .container {
+    margin: 0 auto;
+    padding: 40px 15px 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    height: 58px;
+    margin-bottom: 20px;
+  }
+
+  .container h2 {
+    text-align: center;
+    padding: 20px 40px;
+
+    font-family: MuseoModerno;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 75px;
+
+    border-radius: 30px;
+
+    color: #fffffa;
+    background-color: #00509d;
+  }
+
+  .container p {
+    margin: 40px 0;
+
+    font-size: 24px;
+    line-height: 134%;
+  }
+
+  .photo_desk,
+  .logo_desk {
+    display: none;
+  }
 }

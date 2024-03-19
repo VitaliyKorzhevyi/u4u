@@ -1,0 +1,109 @@
+@media (min-width: 1000px) {
+  .btns_desk {
+    display: flex;
+    gap: clamp(10px, 1.8vw, 30px);
+  }
+
+  .btn_t,
+  .btn_mp {
+    height: 71px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 28px;
+
+    border-radius: 22px;
+    border: none;
+
+    cursor: pointer;
+  }
+
+  .btn_t:hover,
+  .btn_t:focus,
+  .btn_mp:hover,
+  .btn_mp:focus {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .btn_t {
+    min-width: clamp(200px, 20vw, 305px);
+    padding-right: clamp(10px, 2vw, 36px);
+
+    background-color: #00509d;
+    color: #fffffa;
+  }
+
+  .btn_mp {
+    min-width: clamp(50%, 30vw, 370px);
+    padding-right: clamp(10px, 2vw, 36px);
+    flex: 1;
+    background-color: #d9d9d9;
+    color: #00296b;
+  }
+
+  .btn_t svg,
+  .btn_mp svg {
+    margin-top: 3px;
+    height: 17px;
+    width: 15px;
+  }
+
+  .btn_t svg {
+    margin-left: 18px;
+  }
+
+  .btn_mp svg {
+    margin-left: 14px;
+  }
+}
+
+@media (max-width: 999.98px) {
+  .btn_t,
+  .btn_mp {
+    width: 280px;
+    height: 54px;
+
+    margin-left: 4px;
+
+    display: flex;
+    align-items: center;
+
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 24px;
+
+    border-radius: 22px;
+    border: none;
+  }
+
+  .btn_t {
+    padding-left: 123px;
+    background-color: #00509d;
+    color: #fffffa;
+  }
+
+  .btn_mp {
+    margin: 20px 0 20px 4px;
+    padding-left: 36px;
+
+    background-color: #d9d9d9;
+    color: #00296b;
+  }
+
+  .btn_t svg {
+    margin-top: 3px;
+    margin-left: 18px;
+    height: 17px;
+  }
+
+  .btn_mp svg {
+    margin-top: 3px;
+    margin-left: 18px;
+    height: 17px;
+    width: 15px;
+  }
+}

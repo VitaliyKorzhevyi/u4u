@@ -1,19 +1,17 @@
-import { Suspense } from "react";
+import { Suspense, lazy } from "react";
 import { Outlet } from "react-router-dom";
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
 
-
-
+const Header = lazy(() => import("../header/Header.jsx"));
+const Footer = lazy(() => import("../footer/Footer.jsx"));
 
 const Layout = () => {
   return (
     <div>
-      <Header />
       <Suspense>
+        <Header />
         <Outlet />
+        <Footer />
       </Suspense>
-      <Footer/>
     </div>
   );
 };

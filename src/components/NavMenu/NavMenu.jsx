@@ -10,6 +10,11 @@ import navLogo from "../../assets/images/nav_menu_logo.png";
 import iconMenu from "../../assets/icons/iconMenu.svg";
 import iconCross from "../../assets/icons/iconCross.svg";
 
+import iconTG from "../../assets/icons/iconTG.svg";
+import iconIn from "../../assets/icons/iconInstagram.svg";
+
+import iconMail from "../../assets/icons/iconMail.svg";
+
 const NavMenu = () => {
   const [isContainerOpen, setIsContainerOpen] = useState(true);
 
@@ -20,7 +25,12 @@ const NavMenu = () => {
 
   return (
     <>
-      <img className={s.menu_toggle} src={iconMenu} alt="≡" onClick={toggleContainer}/>
+      <img
+        className={s.menu_toggle}
+        src={iconMenu}
+        alt="≡"
+        onClick={toggleContainer}
+      />
       <div className={s.nav_menu_container}>
         <img
           className={s.icon_cross}
@@ -42,7 +52,18 @@ const NavMenu = () => {
         </ul>
 
         <div className={s.nav_menu_sub_container}>
-          <p className={s.phone}>+380 00 000 00 00</p>
+          <div className={s.list_icons}>
+            <a href="mailto:Inbox@support4ukraine.org">
+              <img className={s.email} src={iconMail} alt="mail" />
+            </a>
+            <a href="https://t.me/ukrainian_in_us">
+              <img className={s.i_inst} src={iconIn} alt="instagram" />
+            </a>
+
+            <a href="https://t.me/ukrainian_in_us">
+              <img className={s.i_tg} src={iconTG} alt="telegram" />
+            </a>
+          </div>
           <img src={navLogo} alt="logo" />
         </div>
       </div>

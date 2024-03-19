@@ -1,6 +1,13 @@
 import s from "./MainBtnLink.module.css";
 
-const MainBtnLink = ({ textColor, bgColor, mrRight, height, width }) => {
+const MainBtnLink = ({
+  textColor,
+  bgColor,
+  mrRight,
+  height,
+  width,
+  pdLeft,
+}) => {
   return (
     <button
       className={s.btn}
@@ -13,7 +20,13 @@ const MainBtnLink = ({ textColor, bgColor, mrRight, height, width }) => {
         height: height,
       }}
     >
-      <p>learn more</p>
+      <p
+        style={{
+          paddingLeft: pdLeft,
+        }}
+      >
+        learn more
+      </p>
 
       <svg>
         <path

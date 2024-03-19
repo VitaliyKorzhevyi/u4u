@@ -1,0 +1,88 @@
+.title {
+  padding: 60px 0 30px 0;
+
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 36px;
+  color: #00296b;
+}
+
+.list_text {
+  padding-bottom: 70px;
+
+  display: flex;
+  flex-direction: column;
+
+  line-height: 32px;
+  text-align: left;
+
+  font-family: MuseoModerno;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000;
+}
+
+.list_urls {
+  padding-bottom: 89px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  text-align: left;
+
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 36px;
+  text-decoration: underline 2px;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 4px;
+  color: #00296b;
+}
+
+.text_more {
+  padding-bottom: 40px;
+
+  text-align: left;
+  font-family: Raleway;
+  font-weight: 500;
+
+  color: #00296b;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    min-width: clamp(50%, 1vw, 100%);
+  }
+  .title {
+    padding: 60px 0 40px 0;
+  }
+
+  .list_text {
+    padding-bottom: 78px;
+    gap: 30px;
+  }
+
+  .list_urls {
+    padding-bottom: 80px;
+  }
+
+  .text_more {
+    font-size: 36px;
+  }
+
+}
+
+@media (max-width: 999.98px) {
+  .list_text {
+    gap: 32px;
+  }
+
+  .list_text span {
+    font-weight: 500;
+  }
+
+  .text_more {
+    font-size: 28px;
+  }
+}

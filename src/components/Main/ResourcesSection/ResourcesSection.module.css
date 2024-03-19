@@ -54,12 +54,12 @@
 
   .list_content li:nth-child(1),
   .list_content li:nth-child(2) {
-    max-width: clamp(460px, 47vw, 570px);
-    height: 261px;
+    max-width: clamp(460px, 45vw, 570px);
+    max-height: clamp(100%, 45vw, 100%);
   }
 
   .list_content li:nth-child(1) {
-    padding: 45px 53px 0 44px;
+    padding: 45px 53px 41px 44px;
   }
 
   .list_content li:nth-child(2) {
@@ -79,7 +79,8 @@
     line-height: 35px;
   }
 
-  .btn_mobile {
+  .btn_mobile,
+  .item_mob_img {
     display: none;
   }
 }
@@ -111,7 +112,8 @@
 
     padding-bottom: 15px;
   }
-
+.item_desk_img1,
+.item_desk_img2,
   .item_desk_img,
   .btn_desk {
     display: none;

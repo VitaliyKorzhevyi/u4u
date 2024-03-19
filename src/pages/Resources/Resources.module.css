@@ -1,8 +1,70 @@
 .container {
-  padding: 20px 0 60px;
   text-align: center;
+}
 
-  font-family: MuseoModerno;
-  font-weight: 400;
-  font-size: 36px;
+@media (min-width: 1000px) {
+  .container {
+    position: relative;
+    max-width: 1200px;
+    padding: 35px 15px 0;
+    margin: 0 auto;
+  }
+
+  .content_desk {
+    padding: 35px 0 136px;
+
+    display: flex;
+    gap: clamp(1px, 6.6vw, 94px);
+  }
+
+  .banner_mob {
+    display: none;
+  }
+
+  .title {
+    position: absolute;
+
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: clamp(40px, 5.3vw, 64px);
+    /* font-size: 64px; */
+    color: #00296b;
+    margin-left: -0px;
+  }
+
+  .title span {
+    color: #fdc500;
+  }
+}
+
+@media (max-width: 999.98px) {
+  .container {
+    padding: 20px 15px 60px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner_desk {
+    display: none;
+  }
+
+  .title {
+    padding-bottom: 30px;
+
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 60px;
+    color: #00296b;
+    text-align: left;
+  }
+
+  .title span {
+    color: #fdc500;
+  }
+
+  .banner_mob {
+    margin-bottom: 60px;
+  }
 }
