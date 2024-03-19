@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunku4u=self.webpackChunku4u||[]).push([[177],{177:(e,s,n)=>{n.r(s),n.d(s,{default:()=>a});const i="Community_container__ta2iS";n(43);var c=n(579);const t=()=>(0,c.jsx)("div",{children:"DocumentCommunity"}),u=()=>(0,c.jsx)("div",{children:"RelevantArticlesC"}),a=()=>(0,c.jsxs)("div",{className:i,children:[(0,c.jsx)("p",{children:"Community page"}),(0,c.jsx)(u,{}),(0,c.jsx)(t,{})]})}}]);
-//# sourceMappingURL=177.223fe814.chunk.js.map
