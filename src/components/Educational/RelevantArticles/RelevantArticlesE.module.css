@@ -2,7 +2,7 @@
   .container {
     min-width: 372px;
     border-radius: 30px;
-    padding: 60px 8px 0 40px;
+    padding: 60px 40px 0 40px;
     background-color: rgba(0, 80, 157, 0.3);
   }
 
@@ -45,7 +45,7 @@
 @media (max-width: 999.98px) {
   .container {
     border-radius: 30px;
-    max-height: 379px;
+    max-height: 496px;
     padding-bottom: 25px;
     background-color: rgba(0, 80, 157, 0.3);
   }
@@ -60,9 +60,9 @@
   }
 
   .list {
-    max-height: 379px;
-    margin: 0 12px 26px 39px;
-    padding: 10px 0 0px 30px;
+    max-height: 348px;
+    margin: 0 25px 26px 39px;
+    padding: 10px 0 16px 35px;
 
     display: flex;
     flex-direction: column;

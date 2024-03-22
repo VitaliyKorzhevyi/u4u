@@ -16,7 +16,7 @@
     font-weight: 400;
     font-size: 28px;
 
-    border-radius: 22px;
+    border-radius: 25px;
     border: none;
 
     cursor: pointer;
@@ -39,7 +39,7 @@
 
   .btn_mp {
     min-width: clamp(50%, 30vw, 370px);
-    padding-right: clamp(10px, 2vw, 36px);
+    padding-right: clamp(10px, 2vw, 44px);
     flex: 1;
     background-color: #d9d9d9;
     color: #00296b;

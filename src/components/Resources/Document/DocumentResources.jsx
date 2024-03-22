@@ -55,7 +55,7 @@ const DocumentResources = () => {
           <a href="https://www.ssa.gov/forms/ss-5.pdf">SSN</a>
         </li>
         <li>
-          <a href="0">How to get Driver’s License in the US</a>
+          <a href="https://www.progressive.com/answers/how-to-get-a-drivers-license/">How to get Driver’s License in the US</a>
         </li>{" "}
       </ul>
       <p className={s.text_more}>

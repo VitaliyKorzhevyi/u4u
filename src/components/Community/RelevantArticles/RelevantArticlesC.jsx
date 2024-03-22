@@ -22,7 +22,7 @@ const RelevantArticlesC = () => {
               Temporary Protected Status Designated Country: Ukraine
             </a>
           </li>
-          <li className={s.item}>
+          <li>
             <a
               className={s.text}
               href="https://www.cbp.gov/travel/us-citizens/advance-parole"
@@ -58,6 +58,33 @@ const RelevantArticlesC = () => {
               href="https://www.uscis.gov/green-card/green-card-eligibility-categories"
             >
               Green card eligibility categories
+            </a>
+          </li>
+          <li>
+            <a
+              className={s.text}
+              href="https://www.uscis.gov/scams-fraud-and-misconduct/avoid-scams/find-legal-services#:~:text=To%20help%20you%20find%20an,free%20or%20for%20little%20cost."
+            >
+              Looking for legal services in the US? Here is some guidance from
+              the US govt.
+            </a>
+          </li>
+
+          <li>
+            <a
+              className={s.text}
+              href="https://homeabroadinc.com/moving-to-the-usa-the-ultimate-guide-for-newcomers/"
+            >
+              A guide to a new resident of the USA
+            </a>
+          </li>
+
+          <li>
+            <a
+              className={s.text}
+              href="https://www.tsa.gov/real-id#:~:text=You%20must%20present%20an%20acceptable,your%20identity%20cannot%20be%20verified"
+            >
+              Documents needed to fly within the US
             </a>
           </li>
         </ul>

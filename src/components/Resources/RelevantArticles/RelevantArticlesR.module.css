@@ -2,7 +2,7 @@
   .container {
     min-width: 372px;
     border-radius: 30px;
-    padding: 60px 40px 0 37px;
+    padding: 60px 40px 0 40px;
     background-color: rgba(0, 80, 157, 0.3);
   }
 
@@ -60,8 +60,7 @@
   .list {
     max-height: 348px;
     margin: 0 25px 26px 39px;
-    padding-left: 35px;
-    padding-top: 10px;
+    padding: 10px 0 16px 35px;
 
     display: flex;
     flex-direction: column;

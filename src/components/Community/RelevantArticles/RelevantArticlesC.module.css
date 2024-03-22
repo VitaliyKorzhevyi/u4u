@@ -1,111 +1,111 @@
 @media (min-width: 1000px) {
-    .container {
-      min-width: 372px;
-      border-radius: 30px;
-      padding: 60px 40px 0 37px;
-      background-color: rgba(0, 80, 157, 0.3);
-    }
-  
-    .title {
-      font-family: Raleway;
-      font-weight: 500;
-      font-size: 36px;
-      color: #00296b;
-    }
-  
-    .list {
-      padding-top: 40px;
-  
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      text-align: left;
-      font-family: MuseoModerno;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 160%;
-  
-      color: #00296b;
-    }
-  
-    .item {
-      margin-bottom: -28px;
-    }
-  
-    .text {
-      text-decoration: underline;
-      text-underline-offset: 4px;
-  
-      text-decoration-skip-ink: none;
-    }
+  .container {
+    min-width: 372px;
+    border-radius: 30px;
+    padding: 60px 40px 0 40px;
+    background-color: rgba(0, 80, 157, 0.3);
   }
-  
-  @media (max-width: 999.98px) {
-    .container {
-      border-radius: 30px;
-      max-height: 496px;
-      padding-bottom: 25px;
-      background-color: rgba(0, 80, 157, 0.3);
-    }
-  
-    .title {
-      padding: 60px 0 20px 0;
-  
-      font-family: Raleway;
-      font-weight: 500;
-      font-size: 36px;
-      color: #00296b;
-    }
-  
-    .list {
-      max-height: 348px;
-      margin: 0 25px 26px 39px;
-      padding-left: 35px;
-      padding-top: 10px;
-  
-      display: flex;
-      flex-direction: column;
-  
-      gap: 30px;
-      overflow-y: auto;
-      direction: rtl;
-    }
-  
-    .list li {
-      direction: ltr;
-  
-      text-align: left;
-      font-family: MuseoModerno;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 30px;
-  
-      color: #00296b;
-    }
-  
-    .text {
-      text-decoration: underline;
-      text-underline-offset: 4px;
-  
-      text-decoration-skip-ink: none;
-    }
-  
-    .item {
-      margin-bottom: -28px;
-    }
-  
-    ::-webkit-scrollbar {
-      width: 3px;
-      background: #8e8e8e;
-    }
-  
-    ::-webkit-scrollbar-thumb {
-      background: #00296b;
-      border-radius: 5px;
-    }
-  
-    ::-webkit-scrollbar-thumb:hover {
-      background: #555;
-    }
+
+  .title {
+    text-align: left;
+
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 36px;
+    color: #00296b;
   }
-  
+
+  .list {
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: left;
+    font-family: MuseoModerno;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+
+    color: #00296b;
+  }
+
+  .item {
+    margin-bottom: -28px;
+  }
+
+  .text {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+
+    text-decoration-skip-ink: none;
+  }
+}
+
+@media (max-width: 999.98px) {
+  .container {
+    border-radius: 30px;
+    max-height: 496px;
+    padding-bottom: 25px;
+    background-color: rgba(0, 80, 157, 0.3);
+  }
+
+  .title {
+    padding: 60px 0 20px 0;
+
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 36px;
+    color: #00296b;
+  }
+
+  .list {
+    max-height: 348px;
+    margin: 0 25px 26px 39px;
+    padding: 10px 0 16px 35px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+    overflow-y: auto;
+    direction: rtl;
+  }
+
+  .list li {
+    direction: ltr;
+
+    text-align: left;
+    font-family: MuseoModerno;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #00296b;
+  }
+
+  .text {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+
+    text-decoration-skip-ink: none;
+  }
+
+  .item {
+    margin-bottom: -28px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 3px;
+    background: #8e8e8e;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #00296b;
+    border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}

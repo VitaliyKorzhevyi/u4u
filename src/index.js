@@ -7,7 +7,7 @@ import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  <React.StrictMode basename="/u4u">
     <BrowserRouter>
       <App />
     </BrowserRouter>
