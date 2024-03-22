@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import s from "./NavBtnsPages.module.css";
 
 const NavBtnsPages = () => {
@@ -15,7 +16,7 @@ const NavBtnsPages = () => {
         </button>
       </a>
 
-      <a href="0">
+      <NavLink to="/">
         <button className={s.btn_mp} type="button">
           <p>to the main page</p>{" "}
           <svg>
@@ -25,7 +26,7 @@ const NavBtnsPages = () => {
             />
           </svg>
         </button>
-      </a>
+      </NavLink>
     </div>
   );
 };
