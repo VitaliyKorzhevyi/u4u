@@ -56,7 +56,7 @@ const NavMenu = () => {
             <a href="mailto:Inbox@support4ukraine.org">
               <img className={s.email} src={iconMail} alt="mail" />
             </a>
-            <a href="https://t.me/ukrainian_in_us">
+            <a href="https://www.instagram.com/support_for_ukraine_org?igsh=em94cG83Y2QwMndl&utm_source=qr">
               <img className={s.i_inst} src={iconIn} alt="instagram" />
             </a>
 

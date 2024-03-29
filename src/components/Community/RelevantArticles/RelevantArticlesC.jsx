@@ -27,7 +27,7 @@ const RelevantArticlesC = () => {
               className={s.text}
               href="https://www.cbp.gov/travel/us-citizens/advance-parole"
             >
-              Advance Parole;
+              Advance Parole
             </a>
           </li>
           <li>
@@ -35,12 +35,12 @@ const RelevantArticlesC = () => {
               className={s.text}
               href="https://www.boundless.com/immigration-resources/the-h-1b-visa-explained/"
             >
-              H1B, Explained;
+              H1B, Explained
             </a>
           </li>
           <li>
             <a className={s.text} href="https://www.usa.gov/green-card-lottery">
-              Green Card lottery;
+              Green Card lottery
             </a>
           </li>
           <li>
@@ -66,7 +66,7 @@ const RelevantArticlesC = () => {
               href="https://www.uscis.gov/scams-fraud-and-misconduct/avoid-scams/find-legal-services#:~:text=To%20help%20you%20find%20an,free%20or%20for%20little%20cost."
             >
               Looking for legal services in the US? Here is some guidance from
-              the US govt.
+              the US govt
             </a>
           </li>
 

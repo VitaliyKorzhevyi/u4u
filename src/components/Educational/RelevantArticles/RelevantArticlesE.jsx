@@ -34,7 +34,7 @@ const RelevantArticlesE = () => {
               className={s.text}
               href="https://www.adeccojobsforukraine.com/"
             >
-              A job portal to help Ukrainians find work. 
+              A job portal to help Ukrainians find work
             </a>
           </li>
           <li>
@@ -42,7 +42,7 @@ const RelevantArticlesE = () => {
               className={s.text}
               href="https://www.higheredimmigrationportal.org/policy/expanding-refugee-access-to-in-state-tuition/"
             >
-              A state by state guide on college tuition. 
+              A state by state guide on college tuition
             </a>
           </li>
           <li>
